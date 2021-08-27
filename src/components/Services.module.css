@@ -1,0 +1,25 @@
+.outerCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1% 5%;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+
+ .contWid{
+    margin: 0 3%;
+}
+
+.contWid div{
+    margin: 3% 5%;
+} 
+
+.insd{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}

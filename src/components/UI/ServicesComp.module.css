@@ -1,0 +1,25 @@
+.cnt{
+
+    font-family: 'lato';
+    color: #304659;
+    line-height: 1.5rem;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.cnt img{
+    width: 2.5rem;
+    height: 2.5rem;
+    box-sizing: border-box;
+}
+
+.cnt h4{
+    size: 1.25rem;
+    margin: 2% auto;
+    box-sizing: border-box;
+
+}
+
+.cnt p{
+    size: 1.063rem;
+}

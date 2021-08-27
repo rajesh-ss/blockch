@@ -1,0 +1,170 @@
+.header {
+  height: 4.375rem;
+  width: 100%;
+  background-color: #f5f9fc;  
+  opacity: 80%;
+  position: fixed; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Lato', 'Regular';
+  top: 0;
+  z-index: 2;
+}
+
+.header > img {
+   position: fixed;
+  width: 9.745rem;
+  height: 2.103;
+
+}
+
+.imgCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /*  border: 2px solid black; */
+    flex: 1.5;
+    
+}
+
+.pgln {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  padding: 0;
+  padding-left: 2%;
+    
+    
+/*   border: 2px solid black; */
+}
+
+.pgln li {
+  display: inline;
+}
+
+.pgln a {
+  text-decoration: none;
+  color: #3B5266;
+  opacity: 100%;
+  size: 1.063rem;
+}
+
+.btnCont{
+  
+    flex: 1;
+    display: inline;
+    flex-flow: row-reverse;
+    padding:0;
+
+}
+
+.btnLg, .btnCn {
+  color: bisque;
+  margin: 1rem;
+  float: right;
+
+}
+
+
+
+#togglemenu, #btn, #cancel{
+  display: none;
+}
+
+.menuIcon{
+  display: none;
+}
+
+
+
+@media(max-width:1000px){
+
+  label #btn,
+  label #cancel {
+      cursor: pointer;
+  }
+
+  #btn{
+    display:inline;
+  }
+
+  #togglemenu:checked~ul {
+    right: 0;
+}
+#togglemenu:checked~label #btn {
+  display: none;
+}
+
+#togglemenu:checked~label #cancel {
+  display: inline;
+}
+
+/* .header .btnCont{
+  display: none;
+} */
+
+
+.pgln ul{
+        position: absolute;
+        flex-direction: column;
+        width: 70%;
+        height: 100vh;
+        background: #3B5266;
+        top: 0;
+        right: -100%;
+        text-align: center;
+        transition: 0.5s; 
+        border: 2px solid white;   
+        justify-content:flex-start;
+        align-items:center;
+        margin: 0;
+        padding: 0;
+}
+
+.header li{
+
+  border: 2px solid black;
+    /* margin: 5% 0; */
+    padding: 0;
+    color: #f5f9fc;
+    align-items: space-around;
+    
+
+}
+
+.header li a{
+  color: #f5f9fc;
+} 
+
+
+.btnLg{
+display: none;
+}
+
+.header label, .pgln, .imgCont, .btnCont{
+
+  border: 1px solid black ;
+  flex: 1;
+  padding: 0;
+  height: 100%;
+
+}
+
+.menuIcon{
+  position: relative;
+  display: block;
+  float: right;
+  border: 2px solid black;
+  width: 100%;
+  margin-top: 0;
+  
+
+}
+
+
+}

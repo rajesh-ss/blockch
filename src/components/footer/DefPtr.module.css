@@ -1,0 +1,33 @@
+.dfCnt{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    color: #304659;
+}
+
+.moto {
+max-width: 70%;
+flex: 1.3;
+/* border: 1px solid black; */
+
+margin: 1% 0;
+
+} 
+.service{
+    flex: 1;
+    margin: 1% 1%;
+    line-height: 1rem;
+    font-family: 'lato';
+    /* border: 1px solid black; */
+
+}
+ .connect{
+    flex: 1;
+    margin: 1% 1%;
+    line-height: 1rem;
+
+    font-family: 'lato';
+    /* border: 1px solid black; */
+
+}

@@ -1,0 +1,9 @@
+.button{
+    background-color: #304659;
+    size: 5.13rem;
+    color: #F5F9FC;
+    text-align: center;
+    width: 6.375rem;
+    height: 2.188rem;
+    cursor: pointer;
+}

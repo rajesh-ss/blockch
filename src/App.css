@@ -1,0 +1,58 @@
+.App {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bc {
+  background-color: none;
+}
+
+.ind {
+  margin: 5% auto;
+  text-align: center;
+  font-family: "lato";
+  color: #304659;
+  size: 2.813rem;
+}
+
+.manufacture {
+  text-align: center;
+  max-width: 80%;
+  margin: 10% auto;
+  font-family: "lato";
+  color: #304659;
+}
+
+.tagLine {
+  color: #304659;
+  text-align: center;
+  font-family: "lato";
+  margin: 3% auto;
+  max-width: 50%;
+}
+
+.tagLine h1 {
+  margin: 2% auto;
+  size: 2.188rem;
+  line-height: 2.5 rem;
+}
+
+.dic {
+  margin: 10% auto;
+  text-align: center;
+  max-width: 80%;
+  font-family: "lato";
+  color: #304659;
+}
+
+.hiw {
+  text-align: center;
+  margin: 4% auto;
+  font-family: "lato";
+  color: #304659;
+}
+
+.hiw::-webkit-scrollbar {
+  width: 0;
+}

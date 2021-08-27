@@ -1,0 +1,22 @@
+.hwCnt{
+    margin: 2%;
+    height: 22.5rem;
+    min-width: 20rem;
+    /* border: 1px solid black; */
+}
+
+
+.hwCnt img{
+    width: 6rem;
+    height: 5rem;
+}
+
+
+.hwCnt h4{
+    color: #F79070;
+    font-size: 1.625rem;
+}
+
+.hwCnt p{
+    font-size: 1.375rem;
+}

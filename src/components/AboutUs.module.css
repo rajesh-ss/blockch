@@ -1,0 +1,19 @@
+.abtCnt {
+    text-align: center;
+    padding: 10%;
+    font-family: 'lato';
+}
+
+.abtCnt h1 {
+    size: 45px;
+    margin: 1%;
+    color: #304654;
+}
+
+.abtCnt p {
+    font-family: 'lato';
+    color: #707070;
+    margin: 2% auto;
+    max-width: 80%;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,32 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+
+.conMid{
+    text-align: start;
+    /* border: 1px solid black; */
+    max-width: 70%;
+    font-family: 'lato';
+}
+
+.conMid p{
+    size:0.813rem;
+}
+
+.container h1{
+    color: #304659;
+    margin: 5% auto;
+}
+
+.plce{
+margin-right: 2%;
+}
+
+.btn{
+    width: 7rem;
+    height: 3rem;
+}

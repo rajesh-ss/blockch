@@ -1,0 +1,40 @@
+.subCnt {
+    padding: 6%;
+    box-sizing: border-box;
+}
+
+.subCnt p,
+.subCnt .subsInf {
+    display: inline;
+}
+
+.subCnt p {
+    max-width: 50%;
+}
+
+.subsInf {
+    margin: 0 2%;
+}
+
+.sbsBtn {
+    margin: 0;
+    height: 3.2rem;
+    border: none;
+}
+
+.btnMg {
+    box-sizing: border-box;
+    width: 7.5rem;
+    height: 2.5rem;
+    margin: 0;
+}
+
+.btn {
+    box-sizing: border-box;
+    width: 7.5rem;
+    height: 2.5rem;
+    padding: 0;
+    border: none;
+    margin: 0 2%;
+    border-radius: 5px;
+}
