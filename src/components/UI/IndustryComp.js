@@ -9,7 +9,7 @@ const IndustryComp = (props) =>{
         <IndustryContainer>
             <IndustryTextComp 
             hed='Dairy' 
-            hedDes='Making Ethical and Susteinable claims you can trust'
+            hedDes='Making Ethical and Sustinable claims you can trust'
             plc='Speak with our expert team'
             btnDet='Schedule a call'
             />

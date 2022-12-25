@@ -1,0 +1,52 @@
+.cmm{
+    display: visible;
+   
+}
+
+.ind {
+    margin: 5% auto;
+    text-align: center;
+    font-family: "lato";
+    color: #304659;
+    size: 2.813rem;
+  }
+
+  .gridIcon{
+      display: flex;
+      justify-content: space-evenly;
+      /* border: 1px solid black; */
+      width: 100%;
+      height: 4.625rem;
+      background-color: #fff;
+      margin: 40px 0;
+      
+  }
+  .gridIcon div{
+      height: 4.625rem;
+      width: 4.625rem;
+      /* border: 1px solid black; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      background-color: #fff;
+      
+  }
+
+  .gridIcon div img{
+    background-color: #fff;
+  }
+
+  .mobileDis{
+      display: none;
+  }
+
+@media( max-width: 1000px){
+    .cmm {
+       display: none;
+    }
+
+    .mobileDis{
+        display: block;
+    }
+}

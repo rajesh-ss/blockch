@@ -1,0 +1,7 @@
+
+@media(max-width:1000px){
+    .changeimgFirst{
+        flex-direction: column-reverse;
+     
+    }
+}

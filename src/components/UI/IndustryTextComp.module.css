@@ -2,14 +2,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid black; */
+  margin: 0;
+   /* border: 1px solid black;   */
+  
 }
 
 
 .conMid{
     text-align: start;
-    /* border: 1px solid black; */
-    max-width: 70%;
+    /* border: 1px solid black;  */
+    max-width:70%;
     font-family: 'lato';
 }
 
@@ -29,4 +31,23 @@ margin-right: 2%;
 .btn{
     width: 7rem;
     height: 3rem;
+}
+
+@media(max-width:680px){
+
+        .conMid{
+            text-align: start;
+            /* border: 1px solid black;  */
+            max-width:96%;
+            font-family: 'lato';
+        }
+
+        .container{
+            margin: 5% 0;
+        }
+
+        .plce, .btn{
+            margin: 1rem 0;
+            width: 100%;
+            }
 }

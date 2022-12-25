@@ -22,3 +22,28 @@
     margin-left: 10%;
     width: 7rem;
 }
+
+@media(max-width:1000px){
+    .jrnCnt {
+        flex-direction: column-reverse;
+        justify-content: center;
+        /* border: 1px solid black; */
+        padding: .3%;
+        box-sizing: border-box;
+    }
+    .jrnCnt img {
+        max-width: 25rem;
+        max-height: 25rem;
+        margin: 10% 0;
+}
+    .jrnCnt h1 {
+        margin: 2% auto;
+        max-width: 80%;
+        color: #304659;
+}
+    .btn {
+        margin: 20px 0;
+        width: 100%;
+}
+
+}

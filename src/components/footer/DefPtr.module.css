@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     color: #304659;
+    /* border: 2px solid black; */
 }
 
 .moto {
@@ -30,4 +31,11 @@ margin: 1% 0;
     font-family: 'lato';
     /* border: 1px solid black; */
 
+}
+
+@media(max-width:1000px){
+    .dfCnt{
+        flex-direction: column;
+        justify-content: center;
+    }
 }

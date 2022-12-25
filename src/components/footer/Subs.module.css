@@ -1,15 +1,23 @@
 .subCnt {
     padding: 6%;
     box-sizing: border-box;
+    /* border: 1px solid black; */
+    background-color: #EBF2F7;
 }
 
 .subCnt p,
 .subCnt .subsInf {
     display: inline;
+    background-color: transparent;
 }
 
 .subCnt p {
     max-width: 50%;
+    color: #3B5266;
+    font: 'Lato';
+    margin-left: 2%;
+    background-color: #EBF2F7;
+    font-size: 17px;
 }
 
 .subsInf {
@@ -37,4 +45,28 @@
     border: none;
     margin: 0 2%;
     border-radius: 5px;
+}
+
+@media(max-width:830px){
+
+    .sbsBtn{
+        display: block;
+        margin: 20px auto;
+        width: 90%;
+    }
+    .subsInf {
+        margin: 0 auto;
+    }
+
+    .subCnt {
+    padding: 0;
+    }
+
+    .subCnt p {
+        display: block;
+        max-width: 100%;
+        text-align: center;
+        /* border: 1px solid black; */
+        margin: 0 auto;
+    }
 }
